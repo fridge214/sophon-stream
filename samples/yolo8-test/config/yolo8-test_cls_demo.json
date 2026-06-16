@@ -1,0 +1,15 @@
+{
+  "channels": [
+    {
+      "channel_id": 2,
+      "url": "../yolov8/data/pics",
+      "source_type": "IMG_DIR",
+      "sample_interval": 1,
+      "loop_num": 1,
+      "fps": -1
+    }
+  ],
+  "download_image": false,
+  "draw_func_name": "default",
+  "engine_config_path": "../yolo8-test/config/engine_cls_group.json"
+}

@@ -1,0 +1,15 @@
+{
+  "channels": [
+    {
+      "channel_id": 2,
+      "url": "../yolov8/data/videos/demo_skeleton.mp4",
+      "source_type": "VIDEO",
+      "sample_interval": 1,
+      "loop_num": 1,
+      "fps": -1
+    }
+  ],
+  "download_image": true,
+  "draw_func_name": "draw_yolov8_det_pose",
+  "engine_config_path": "../yolo8-test/config/engine_pose_group.json"
+}
