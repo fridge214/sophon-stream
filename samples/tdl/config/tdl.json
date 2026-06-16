@@ -1,0 +1,22 @@
+{
+  "configure": {
+    "model_id": "YOLOV8N_DET_PERSON_VEHICLE",
+    "task_type": "Detection",
+    "model_path": "/data/tdl_models/bm1684x/yolov8n_det_person_vehicle_384_640_INT8_bm1684x.bmodel",
+    "threshold": 0.5,
+    "temp_dir": "/data/sophon-stream/tmp/tdl",
+    "class_names": [
+      "car",
+      "bus",
+      "truck",
+      "rider with motorcycle",
+      "person",
+      "bike",
+      "motorcycle"
+    ]
+  },
+  "shared_object": "../../build/lib/libtdl.so",
+  "name": "tdl",
+  "side": "sophgo",
+  "thread_number": 1
+}

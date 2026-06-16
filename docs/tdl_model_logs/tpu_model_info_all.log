@@ -1,0 +1,1691 @@
+===== MODEL: cls_attribute_gender_age_glass_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:57 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_attribute_gender_age_glass_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 112, 112], uint8, scale: 255.001, zero point: 0
+output: gender_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: age_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: glass_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+
+
+device mem size: 12277120 (weight: 12046336, instruct: 14720, runtime: 216064)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_attribute_gender_age_glass_emotion_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:07 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_attribute_gender_age_glass_emotion_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 112, 112], uint8, scale: 255.001, zero point: 0
+output: gender_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: age_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: glass_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: emotion_Gemm_f32, [1, 7], float32, scale: 1, zero point: 0
+
+
+device mem size: 12479360 (weight: 12242944, instruct: 16256, runtime: 220160)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_attribute_gender_age_glass_emotion_tiny_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:16 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_attribute_gender_age_glass_emotion_tiny_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 112, 112], uint8, scale: 255.001, zero point: 0
+output: gender_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: age_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: glass_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: emotion_Gemm_f32, [1, 7], float32, scale: 1, zero point: 0
+
+
+device mem size: 1513856 (weight: 1277952, instruct: 15744, runtime: 220160)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_attribute_gender_age_glass_mask_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:21 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_attribute_gender_age_glass_mask_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 112, 112], uint8, scale: 255.001, zero point: 0
+output: gender_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: age_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: glass_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+output: mask_Sigmoid_f32, [1, 1], float32, scale: 1, zero point: 0
+
+
+device mem size: 771200 (weight: 544768, instruct: 14464, runtime: 211968)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_hand_gesture_128_128_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:30 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_hand_gesture_128_128_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 128, 128], int8, scale: 48.1066, zero point: 0
+output: y_Softmax__softmax_reshape_f32, [1, 4], float32, scale: 1, zero point: 0
+
+
+device mem size: 2278912 (weight: 1986560, instruct: 17920, runtime: 274432)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_keypoint_hand_gesture_1_42_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:36 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_keypoint_hand_gesture_1_42_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 42], uint8, scale: 285.532, zero point: 0
+output: y_Softmax__softmax_reshape_f32, [1, 9], float32, scale: 1, zero point: 0
+
+
+device mem size: 73000 (weight: 53248, instruct: 3200, runtime: 16552)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_rgbliveness_256_256_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:05:46 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_rgbliveness_256_256_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 256, 256], uint8, scale: 255.001, zero point: 0
+output: /classifier_layer/Gemm_output_0_Gemm_f32, [1, 2], float32, scale: 1, zero point: 0
+
+
+device mem size: 12808960 (weight: 11771904, instruct: 13056, runtime: 1024000)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_sound_babay_cry_188_40_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:18 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_sound_babay_cry_188_40_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 1, 188, 40], int8, scale: 2.11667, zero point: 0
+output: output_Gemm_f32, [1, 2], float32, scale: 1, zero point: 0
+
+
+device mem size: 732160 (weight: 671744, instruct: 5760, runtime: 54656)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_sound_dakaiqianlu_126_40_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:25 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_sound_dakaiqianlu_126_40_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 1, 126, 40], uint8, scale: 56.4955, zero point: 0
+output: cls_Gemm_f32, [1, 11], float32, scale: 1, zero point: 0
+
+
+device mem size: 722240 (weight: 671744, instruct: 5760, runtime: 44736)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_sound_nihaoshiyun_126_40_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:32 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_sound_nihaoshiyun_126_40_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 1, 126, 40], uint8, scale: 53.4199, zero point: 0
+output: cls_Gemm_f32, [1, 5], float32, scale: 1, zero point: 0
+
+
+device mem size: 722240 (weight: 671744, instruct: 5760, runtime: 44736)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: cls_sound_xiaoaixiaoai_126_40_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:40 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [cls_sound_xiaoaixiaoai_126_40_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 1, 126, 40], int8, scale: 1.5875, zero point: 0
+output: cls_Gemm_f32, [1, 5], float32, scale: 1, zero point: 0
+
+
+device mem size: 722240 (weight: 671744, instruct: 5760, runtime: 44736)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: feature_bmface_r34_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:06:29 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [feature_bmface_r34_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 112, 112], uint8, scale: 1, zero point: 0
+output: fc1/1, [1, 512], int8, scale: 0.0577789, zero point: 0
+
+
+device mem size: 35305088 (weight: 35000320, instruct: 80512, runtime: 224256)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: feature_clip_text_1_77_W4BF16_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:07:12 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [feature_clip_text_1_77_W4BF16]  static
+------------
+stage 0, core num: 1
+input: input.1, [1, 77], int32, scale: 1, zero point: 0
+output: 1538_MatMul_f32, [1, 512], float32, scale: 1, zero point: 0
+
+
+device mem size: 74043264 (weight: 72110080, instruct: 264064, runtime: 1669120)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: feature_cviface_112_112_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:07:37 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [feature_cviface_112_112_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 112, 112], int8, scale: 127.498, zero point: 0
+output: fc1, [1, 256], int8, scale: 0.0361815, zero point: 0
+
+
+device mem size: 3706368 (weight: 3452928, instruct: 45568, runtime: 207872)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: feature_mobileclip2_B_img_224_224_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.22.beta.0-8-g7b292a514-20250924
+chip: BM1684X
+create time: Mon Sep 29 14:09:14 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 5259568
+kernel_module md5: 135e7a12ddbb28704777103996e17c36
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [feature_mobileclip2_B_img_224_224_INT8]  static
+------------
+stage 0, core num: 1
+input: image_raw, [1, 3, 224, 224], uint8, scale: 255, zero point: 0
+output: image_features_Gemm_f32, [1, 512], float32, scale: 1, zero point: 0
+
+
+device mem size: 88223360 (weight: 86966272, instruct: 200320, runtime: 1056768)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: feature_mobileclip2_B_text_1_77_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.22.beta.0-8-g7b292a514-20250924
+chip: BM1684X
+create time: Mon Sep 29 14:23:49 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 5259568
+kernel_module md5: 135e7a12ddbb28704777103996e17c36
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [feature_mobileclip2_B_text_1_77_INT8]  static
+------------
+stage 0, core num: 1
+input: text, [1, 77], int32, scale: 1, zero point: 0
+output: text_features_MatMul_f32, [1, 512], float32, scale: 1, zero point: 0
+
+
+device mem size: 92313472 (weight: 91475968, instruct: 143232, runtime: 694272)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: keypoint_face_v2_64_64_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:07:48 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [keypoint_face_v2_64_64_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 64, 64], int8, scale: 127.001, zero point: 0
+output: x_pred_Slice_f32, [1, 5], float32, scale: 1, zero point: 0
+output: y_pred_Slice_f32, [1, 5], float32, scale: 1, zero point: 0
+output: score_Concat_f32, [1, 2, 1, 1], float32, scale: 1, zero point: 0
+
+
+device mem size: 1109248 (weight: 991232, instruct: 36096, runtime: 81920)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: keypoint_hand_128_128_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:07:58 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [keypoint_hand_128_128_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 128, 128], int8, scale: 48.1061, zero point: 0
+output: y_Reshape_f32, [1, 21, 2], float32, scale: 1, zero point: 0
+
+
+device mem size: 2323200 (weight: 2031616, instruct: 17152, runtime: 274432)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: keypoint_license_plate_64_128_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:08:06 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [keypoint_license_plate_64_128_INT8]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 64, 128], uint8, scale: 127.502, zero point: 0
+output: output_Sigmoid_f32, [1, 8], float32, scale: 1, zero point: 0
+
+
+device mem size: 1908864 (weight: 1748992, instruct: 16512, runtime: 143360)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: keypoint_simcc_person17_256_192_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:08:17 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [keypoint_simcc_person17_256_192_INT8]  static
+------------
+stage 0, core num: 1
+input: input.1, [1, 3, 256, 192], int8, scale: 48.1066, zero point: 0
+output: 549_Add_f32, [1, 17, 384], float32, scale: 1, zero point: 0
+output: 552_Add_f32, [1, 17, 512], float32, scale: 1, zero point: 0
+
+
+device mem size: 5074432 (weight: 4255744, instruct: 15872, runtime: 802816)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: keypoint_yolov8pose_person17_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:08:59 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [keypoint_yolov8pose_person17_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: 757_Conv, [1, 64, 48, 80], int8, scale: 0.0925333, zero point: 0
+output: 766_Conv, [1, 64, 24, 40], int8, scale: 0.109398, zero point: 0
+output: 775_Conv, [1, 64, 12, 20], int8, scale: 0.110801, zero point: 0
+output: 784_Conv, [1, 1, 48, 80], int8, scale: 0.21283, zero point: 0
+output: 793_Conv, [1, 1, 24, 40], int8, scale: 0.365909, zero point: 0
+output: 802_Conv, [1, 1, 12, 20], int8, scale: 0.332773, zero point: 0
+output: 730_Conv, [1, 51, 48, 80], int8, scale: 0.0433752, zero point: 0
+output: 739_Conv, [1, 51, 24, 40], int8, scale: 0.0611531, zero point: 0
+output: 748_Conv, [1, 51, 12, 20], int8, scale: 0.0738267, zero point: 0
+
+
+device mem size: 8863488 (weight: 4042752, instruct: 48896, runtime: 4771840)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: lstr_det_lane_360_640_MIX_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:09:09 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [lstr_det_lane_360_640_MIX]  static
+------------
+stage 0, core num: 1
+input: input, [1, 3, 360, 640], int8, scale: 59.2649, zero point: 0
+output: output_Squeeze_f32, [1, 7, 2], float32, scale: 1, zero point: 0
+output: 1269_Squeeze_f32, [1, 7, 8], float32, scale: 1, zero point: 0
+
+
+device mem size: 6511872 (weight: 2453504, instruct: 68864, runtime: 3989504)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: mbv2_det_person_256_384_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:10:56 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [mbv2_det_person_256_384_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 256, 384], int8, scale: 53.8537, zero point: 0
+output: box_stride_128, [1, 2, 3, 36], int8, scale: 0.0251916, zero point: 0
+output: box_stride_16, [1, 16, 24, 36], int8, scale: 0.0169574, zero point: 0
+output: box_stride_32, [1, 8, 12, 36], int8, scale: 0.0201199, zero point: 0
+output: box_stride_64, [1, 4, 6, 36], int8, scale: 0.0223108, zero point: 0
+output: box_stride_8, [1, 32, 48, 36], int8, scale: 0.0187681, zero point: 0
+output: class_stride_128, [1, 2, 3, 9], int8, scale: 0.0609533, zero point: 0
+output: class_stride_16, [1, 16, 24, 9], int8, scale: 0.0751163, zero point: 0
+output: class_stride_32, [1, 8, 12, 9], int8, scale: 0.0756834, zero point: 0
+output: class_stride_64, [1, 4, 6, 9], int8, scale: 0.0734851, zero point: 0
+output: class_stride_8, [1, 32, 48, 9], int8, scale: 0.0841113, zero point: 0
+
+
+device mem size: 5267456 (weight: 3522560, instruct: 94208, runtime: 1650688)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: mbv2_det_person_256_448_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:12:29 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [mbv2_det_person_256_448_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 256, 448], int8, scale: 52.2941, zero point: 0
+output: box16, [1, 16, 28, 36], int8, scale: 0.0146879, zero point: 0
+output: box32, [1, 8, 14, 36], int8, scale: 0.0162986, zero point: 0
+output: box4, [1, 64, 112, 36], int8, scale: 0.01561, zero point: 0
+output: box64, [1, 4, 7, 36], int8, scale: 0.0169334, zero point: 0
+output: box8, [1, 32, 56, 36], int8, scale: 0.0109522, zero point: 0
+output: class16, [1, 16, 28, 9], int8, scale: 0.0855073, zero point: 0
+output: class32, [1, 8, 14, 9], int8, scale: 0.0737592, zero point: 0
+output: class4, [1, 64, 112, 9], int8, scale: 0.0787673, zero point: 0
+output: class64, [1, 4, 7, 9], int8, scale: 0.066582, zero point: 0
+output: class8, [1, 32, 56, 9], int8, scale: 0.0764353, zero point: 0
+
+
+device mem size: 6105728 (weight: 3584000, instruct: 100992, runtime: 2420736)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: mbv2_det_person_512_896_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:13:36 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [mbv2_det_person_512_896_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 512, 896], int8, scale: 53.8537, zero point: 0
+output: box_stride_128, [1, 4, 7, 36], int8, scale: 0.0307946, zero point: 0
+output: box_stride_16, [1, 32, 56, 36], int8, scale: 0.110325, zero point: 0
+output: box_stride_32, [1, 16, 28, 36], int8, scale: 0.0704883, zero point: 0
+output: box_stride_64, [1, 8, 14, 36], int8, scale: 0.048578, zero point: 0
+output: box_stride_8, [1, 64, 112, 36], int8, scale: 0.191144, zero point: 0
+output: class_stride_128, [1, 4, 7, 9], int8, scale: 0.0671963, zero point: 0
+output: class_stride_16, [1, 32, 56, 9], int8, scale: 0.0779715, zero point: 0
+output: class_stride_32, [1, 16, 28, 9], int8, scale: 0.0765398, zero point: 0
+output: class_stride_64, [1, 8, 14, 9], int8, scale: 0.0787861, zero point: 0
+output: class_stride_8, [1, 64, 112, 9], int8, scale: 0.0893939, zero point: 0
+
+
+device mem size: 11803392 (weight: 4079616, instruct: 121600, runtime: 7602176)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: mbv2_det_person_896_896_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:14:36 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [mbv2_det_person_896_896_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 896, 896], int8, scale: 53.8537, zero point: 0
+output: box_stride_128, [1, 7, 7, 36], int8, scale: 0.0329339, zero point: 0
+output: box_stride_16, [1, 56, 56, 36], int8, scale: 0.106883, zero point: 0
+output: box_stride_32, [1, 28, 28, 36], int8, scale: 0.0789097, zero point: 0
+output: box_stride_64, [1, 14, 14, 36], int8, scale: 0.0353191, zero point: 0
+output: box_stride_8, [1, 112, 112, 36], int8, scale: 0.175503, zero point: 0
+output: class_stride_128, [1, 7, 7, 9], int8, scale: 0.0681803, zero point: 0
+output: class_stride_16, [1, 56, 56, 9], int8, scale: 0.0891549, zero point: 0
+output: class_stride_32, [1, 28, 28, 9], int8, scale: 0.0739879, zero point: 0
+output: class_stride_64, [1, 14, 14, 9], int8, scale: 0.0845483, zero point: 0
+output: class_stride_8, [1, 112, 112, 9], int8, scale: 0.0939784, zero point: 0
+
+
+device mem size: 17489920 (weight: 4079616, instruct: 143360, runtime: 13266944)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: ppyoloe_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:30:49 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [ppyoloe_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: image, [1, 3, 640, 640], int8, scale: 48.106, zero point: 0
+output: transpose_1.tmp_0_Transpose, [1, 20, 20, 80], int8, scale: 0.103151, zero point: 0
+output: transpose_3.tmp_0_Transpose, [1, 40, 40, 80], int8, scale: 0.0883993, zero point: 0
+output: transpose_5.tmp_0_Transpose, [1, 80, 80, 80], int8, scale: 0.0795661, zero point: 0
+output: reshape2_1.tmp_0_Reshape, [1, 20, 20, 4], uint8, scale: 0.0592763, zero point: 0
+output: reshape2_3.tmp_0_Reshape, [1, 40, 40, 4], uint8, scale: 0.0596478, zero point: 0
+output: reshape2_5.tmp_0_Reshape, [1, 80, 80, 4], uint8, scale: 0.0577193, zero point: 0
+
+
+device mem size: 20932096 (weight: 10620928, instruct: 857600, runtime: 9453568)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: recognition_license_plate_24_96_MIX_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:04:48 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [recognition_license_plate_24_96_MIX]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 24, 94], int8, scale: 127.498, zero point: 0
+output: output_ReduceMean_f32, [1, 80, 18], float32, scale: 1, zero point: 0
+
+
+device mem size: 5023296 (weight: 2269184, instruct: 19584, runtime: 2734528)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: scrfd_det_face_432_768_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:06:08 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [scrfd_det_face_432_768_INT8]  static
+------------
+stage 0, core num: 1
+input: input.1, [1, 3, 432, 768], int8, scale: 127.702, zero point: 0
+output: score_8_Sigmoid_f32, [1, 2, 54, 96], float32, scale: 1, zero point: 0
+output: score_16_Sigmoid_f32, [1, 2, 27, 48], float32, scale: 1, zero point: 0
+output: score_32_Sigmoid_f32, [1, 2, 14, 24], float32, scale: 1, zero point: 0
+output: bbox_8_Conv_f32, [1, 8, 54, 96], float32, scale: 1, zero point: 0
+output: bbox_16_Conv_f32, [1, 8, 27, 48], float32, scale: 1, zero point: 0
+output: bbox_32_Conv_f32, [1, 8, 14, 24], float32, scale: 1, zero point: 0
+output: kps_8_Conv_f32, [1, 20, 54, 96], float32, scale: 1, zero point: 0
+output: kps_16_Conv_f32, [1, 20, 27, 48], float32, scale: 1, zero point: 0
+output: kps_32_Conv_f32, [1, 20, 14, 24], float32, scale: 1, zero point: 0
+
+
+device mem size: 23420288 (weight: 1437696, instruct: 52608, runtime: 21929984)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: topformer_seg_motion_512_960_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:38:56 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [topformer_seg_motion_512_960_INT8]  static
+------------
+stage 0, core num: 1
+input: input0, [1, 1, 512, 960], uint8, scale: 255, zero point: 0
+input: input1, [1, 1, 512, 960], uint8, scale: 255, zero point: 0
+input: input2, [1, 1, 512, 960], uint8, scale: 255, zero point: 0
+output: output_Conv_f32, [1, 3, 64, 120], float32, scale: 1, zero point: 0
+
+
+device mem size: 9081984 (weight: 446464, instruct: 74880, runtime: 8560640)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: topformer_seg_person_face_vehicle_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:39:03 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [topformer_seg_person_face_vehicle_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: input0, [1, 3, 384, 640], int8, scale: 48.1066, zero point: 0
+output: output_ArgMax, [1, 48, 80], int32, scale: 1, zero point: 0
+output: 523_ReduceMax_r_values, [1, 48, 80], float32, scale: 1, zero point: 0
+
+
+device mem size: 7988864 (weight: 663552, instruct: 161408, runtime: 7163904)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: tracking_feartrack_128_128_256_256_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:40:23 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [tracking_feartrack_128_128_256_256_INT8]  static
+------------
+stage 0, core num: 1
+input: template_image, [1, 3, 128, 128], int8, scale: 50.4763, zero point: 0
+input: search_image, [1, 3, 256, 256], int8, scale: 48.7497, zero point: 0
+output: bbox_Add, [1, 4, 16, 16], int8, scale: 0.0366069, zero point: 0
+output: cls_Sigmoid, [1, 1, 16, 16], uint8, scale: 0.00392157, zero point: 0
+
+
+device mem size: 5482496 (weight: 3985408, instruct: 38912, runtime: 1458176)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov10n_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:32:47 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov10n_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Conv, [1, 64, 80, 80], int8, scale: 0.114081, zero point: 0
+output: 477_Conv, [1, 64, 40, 40], int8, scale: 0.11297, zero point: 0
+output: 484_Conv, [1, 64, 20, 20], int8, scale: 0.0873225, zero point: 0
+output: 497_Conv, [1, 80, 80, 80], int8, scale: 0.191765, zero point: 0
+output: 510_Conv, [1, 80, 40, 40], int8, scale: 0.24029, zero point: 0
+output: 523_Conv, [1, 80, 20, 20], int8, scale: 0.241852, zero point: 0
+
+
+device mem size: 12060160 (weight: 3371008, instruct: 75264, runtime: 8613888)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov5m_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:33:25 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov5m_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Gather, [3, 80, 80, 4], int8, scale: 0.155135, zero point: 0
+output: 463_Gather, [3, 80, 80, 1], int8, scale: 0.155135, zero point: 0
+output: 465_Gather, [3, 80, 80, 80], int8, scale: 0.155135, zero point: 0
+output: 484_Gather, [3, 40, 40, 4], int8, scale: 0.117758, zero point: 0
+output: 486_Gather, [3, 40, 40, 1], int8, scale: 0.117758, zero point: 0
+output: 488_Gather, [3, 40, 40, 80], int8, scale: 0.117758, zero point: 0
+output: 507_Gather, [3, 20, 20, 4], int8, scale: 0.11297, zero point: 0
+output: 509_Gather, [3, 20, 20, 1], int8, scale: 0.11297, zero point: 0
+output: 511_Gather, [3, 20, 20, 80], int8, scale: 0.11297, zero point: 0
+
+
+device mem size: 36194304 (weight: 23351296, instruct: 51200, runtime: 12791808)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov5s_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:33:57 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov5s_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Gather, [3, 80, 80, 4], int8, scale: 0.147844, zero point: 0
+output: 346_Gather, [3, 80, 80, 1], int8, scale: 0.147844, zero point: 0
+output: 348_Gather, [3, 80, 80, 80], int8, scale: 0.147844, zero point: 0
+output: 367_Gather, [3, 40, 40, 4], int8, scale: 0.120297, zero point: 0
+output: 369_Gather, [3, 40, 40, 1], int8, scale: 0.120297, zero point: 0
+output: 371_Gather, [3, 40, 40, 80], int8, scale: 0.120297, zero point: 0
+output: 390_Gather, [3, 20, 20, 4], int8, scale: 0.117944, zero point: 0
+output: 392_Gather, [3, 20, 20, 1], int8, scale: 0.117944, zero point: 0
+output: 394_Gather, [3, 20, 20, 80], int8, scale: 0.117944, zero point: 0
+
+
+device mem size: 21079168 (weight: 8146944, instruct: 38016, runtime: 12894208)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov6n_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:34:12 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov6n_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: outputs_Transpose, [1, 80, 80, 80], int8, scale: 0.0877599, zero point: 0
+output: 282_Transpose, [1, 80, 80, 4], int8, scale: 0.0918793, zero point: 0
+output: 294_Transpose, [1, 40, 40, 80], int8, scale: 0.0898706, zero point: 0
+output: 295_Transpose, [1, 40, 40, 4], int8, scale: 0.115299, zero point: 0
+output: 307_Transpose, [1, 20, 20, 80], int8, scale: 0.0794146, zero point: 0
+output: 308_Transpose, [1, 20, 20, 4], int8, scale: 0.117149, zero point: 0
+
+
+device mem size: 12938752 (weight: 5222400, instruct: 36352, runtime: 7680000)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov6s_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:34:39 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov6s_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: outputs_Transpose, [1, 80, 80, 80], int8, scale: 0.0736885, zero point: 0
+output: 282_Transpose, [1, 80, 80, 4], int8, scale: 0.0987296, zero point: 0
+output: 294_Transpose, [1, 40, 40, 80], int8, scale: 0.0740274, zero point: 0
+output: 295_Transpose, [1, 40, 40, 4], int8, scale: 0.0987926, zero point: 0
+output: 307_Transpose, [1, 20, 20, 80], int8, scale: 0.0629559, zero point: 0
+output: 308_Transpose, [1, 20, 20, 4], int8, scale: 0.113808, zero point: 0
+
+
+device mem size: 27890688 (weight: 19361792, instruct: 29696, runtime: 8499200)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov7_tiny_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:35:06 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov7_tiny_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: 277_Gather, [3, 80, 80, 4], int8, scale: 0.184908, zero point: 0
+output: 279_Gather, [3, 80, 80, 1], int8, scale: 0.184908, zero point: 0
+output: 281_Gather, [3, 80, 80, 80], int8, scale: 0.184908, zero point: 0
+output: 300_Gather, [3, 40, 40, 4], int8, scale: 0.206203, zero point: 0
+output: 302_Gather, [3, 40, 40, 1], int8, scale: 0.206203, zero point: 0
+output: 304_Gather, [3, 40, 40, 80], int8, scale: 0.206203, zero point: 0
+output: 323_Gather, [3, 20, 20, 4], int8, scale: 0.19039, zero point: 0
+output: 325_Gather, [3, 20, 20, 1], int8, scale: 0.19039, zero point: 0
+output: 327_Gather, [3, 20, 20, 80], int8, scale: 0.19039, zero point: 0
+
+
+device mem size: 19724800 (weight: 6795264, instruct: 35328, runtime: 12894208)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_bicycle_motor_ebicycle_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:15:42 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_bicycle_motor_ebicycle_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.117052, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.110697, zero point: 0
+output: 706_Conv, [1, 64, 12, 20], int8, scale: 0.111222, zero point: 0
+output: 715_Conv, [1, 3, 48, 80], int8, scale: 0.266295, zero point: 0
+output: 724_Conv, [1, 3, 24, 40], int8, scale: 0.38872, zero point: 0
+output: 733_Conv, [1, 3, 12, 20], int8, scale: 0.641338, zero point: 0
+
+
+device mem size: 8241408 (weight: 3674112, instruct: 45312, runtime: 4521984)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_bicycle_motor_ebicycle_mbv2_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:16:05 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_bicycle_motor_ebicycle_mbv2_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.121397, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.111567, zero point: 0
+output: 788_Conv, [1, 64, 12, 20], int8, scale: 0.0993481, zero point: 0
+output: 797_Conv, [1, 3, 48, 80], int8, scale: 0.193172, zero point: 0
+output: 806_Conv, [1, 3, 24, 40], int8, scale: 0.212849, zero point: 0
+output: 815_Conv, [1, 3, 12, 20], int8, scale: 0.470476, zero point: 0
+
+
+device mem size: 5868032 (weight: 1589248, instruct: 39424, runtime: 4239360)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:35:56 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Conv, [1, 64, 80, 80], int8, scale: 0.140989, zero point: 0
+output: 324_Conv, [1, 64, 40, 40], int8, scale: 0.116635, zero point: 0
+output: 331_Conv, [1, 64, 20, 20], int8, scale: 0.109449, zero point: 0
+output: 338_Conv, [1, 80, 80, 80], int8, scale: 0.189892, zero point: 0
+output: 345_Conv, [1, 80, 40, 40], int8, scale: 0.239083, zero point: 0
+output: 352_Conv, [1, 80, 20, 20], int8, scale: 0.27941, zero point: 0
+
+
+device mem size: 12603392 (weight: 4349952, instruct: 61440, runtime: 8192000)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_face_head_person_pet_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:16:29 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_face_head_person_pet_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Conv, [1, 64, 48, 80], int8, scale: 0.172514, zero point: 0
+output: 707_Conv, [1, 64, 24, 40], int8, scale: 0.154953, zero point: 0
+output: 720_Conv, [1, 64, 12, 20], int8, scale: 0.117045, zero point: 0
+output: 733_Conv, [1, 4, 48, 80], int8, scale: 0.198022, zero point: 0
+output: 746_Conv, [1, 4, 24, 40], int8, scale: 0.286098, zero point: 0
+output: 759_Conv, [1, 4, 12, 20], int8, scale: 0.338568, zero point: 0
+
+
+device mem size: 5881344 (weight: 1593344, instruct: 44544, runtime: 4243456)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_fire_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:16:57 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_fire_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.972, zero point: 0
+output: box_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 886_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 895_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 904_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 913_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 7842304 (weight: 2699264, instruct: 80384, runtime: 5062656)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_fire_smoke_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:17:17 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_fire_smoke_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 790_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 799_Conv_f32, [1, 2, 48, 80], float32, scale: 1, zero point: 0
+output: 808_Conv_f32, [1, 2, 24, 40], float32, scale: 1, zero point: 0
+output: 817_Conv_f32, [1, 2, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 6985216 (weight: 1662976, instruct: 38400, runtime: 5283840)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_hand_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:17:46 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_hand_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 384, 640], uint8, scale: 256.41, zero point: 0
+output: 3473_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: 3498_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 3523_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 3548_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 3573_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 3598_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 7571840 (weight: 2404352, instruct: 104832, runtime: 5062656)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_hand_face_person_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:18:35 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_hand_face_person_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.112797, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.0966815, zero point: 0
+output: 1162_Conv, [1, 64, 12, 20], int8, scale: 0.0922565, zero point: 0
+output: 1179_Conv, [1, 3, 48, 80], int8, scale: 0.387748, zero point: 0
+output: 1196_Conv, [1, 3, 24, 40], int8, scale: 0.40076, zero point: 0
+output: 1213_Conv, [1, 3, 12, 20], int8, scale: 0.442971, zero point: 0
+
+
+device mem size: 7164288 (weight: 3018752, instruct: 53632, runtime: 4091904)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_hand_mv3_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:19:29 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_hand_mv3_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: data, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: 3864_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: 3889_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 3914_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 3939_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 3964_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 3989_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 7388544 (weight: 2056192, instruct: 85376, runtime: 5246976)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_head_hardhat_576_960_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:20:07 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_head_hardhat_576_960_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 576, 960], uint8, scale: 254.972, zero point: 0
+output: box_Conv_f32, [1, 64, 72, 120], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 36, 60], float32, scale: 1, zero point: 0
+output: 612_Conv_f32, [1, 64, 18, 30], float32, scale: 1, zero point: 0
+output: 621_Conv_f32, [1, 2, 72, 120], float32, scale: 1, zero point: 0
+output: 630_Conv_f32, [1, 2, 36, 60], float32, scale: 1, zero point: 0
+output: 639_Conv_f32, [1, 2, 18, 30], float32, scale: 1, zero point: 0
+
+
+device mem size: 15606400 (weight: 3031040, instruct: 62080, runtime: 12513280)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_head_person_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:21:11 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_head_person_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.0989868, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.100594, zero point: 0
+output: 706_Conv, [1, 64, 12, 20], int8, scale: 0.0955888, zero point: 0
+output: 715_Conv, [1, 2, 48, 80], int8, scale: 0.317441, zero point: 0
+output: 724_Conv, [1, 2, 24, 40], int8, scale: 0.306709, zero point: 0
+output: 733_Conv, [1, 2, 12, 20], int8, scale: 0.491184, zero point: 0
+
+
+device mem size: 8237568 (weight: 3674112, instruct: 45568, runtime: 4517888)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_head_shoulder_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:22:14 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_head_shoulder_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: output_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: 601_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 610_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 619_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 628_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 637_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 8620928 (weight: 3031040, instruct: 43904, runtime: 5545984)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_head_shoulder_mbv2_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:22:53 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_head_shoulder_mbv2_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: output0_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: 705_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 718_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 731_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 744_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 757_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 6958592 (weight: 1593344, instruct: 44544, runtime: 5320704)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_ir_person_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:23:58 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_ir_person_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 706_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 715_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 724_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 733_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 9212160 (weight: 3674112, instruct: 45312, runtime: 5492736)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_ir_person_mbv2_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:24:20 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_ir_person_mbv2_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 790_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 799_Conv_f32, [1, 1, 48, 80], float32, scale: 1, zero point: 0
+output: 808_Conv_f32, [1, 1, 24, 40], float32, scale: 1, zero point: 0
+output: 817_Conv_f32, [1, 1, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 6973312 (weight: 1662976, instruct: 38784, runtime: 5271552)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_license_plate_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:25:20 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_license_plate_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.0801342, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.0901786, zero point: 0
+output: 608_Conv, [1, 64, 12, 20], int8, scale: 0.0215208, zero point: 0
+output: 617_Conv, [1, 1, 48, 80], int8, scale: 0.521195, zero point: 0
+output: 626_Conv, [1, 1, 24, 40], int8, scale: 0.61107, zero point: 0
+output: 635_Conv, [1, 1, 12, 20], int8, scale: 0.117967, zero point: 0
+
+
+device mem size: 7899776 (weight: 3031040, instruct: 43648, runtime: 4825088)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_monitor_person_256_448_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:25:44 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_monitor_person_256_448_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 256, 448], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 32, 56], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 16, 28], float32, scale: 1, zero point: 0
+output: 788_Conv_f32, [1, 64, 8, 14], float32, scale: 1, zero point: 0
+output: 797_Conv_f32, [1, 1, 32, 56], float32, scale: 1, zero point: 0
+output: 806_Conv_f32, [1, 1, 16, 28], float32, scale: 1, zero point: 0
+output: 815_Conv_f32, [1, 1, 8, 14], float32, scale: 1, zero point: 0
+
+
+device mem size: 4120576 (weight: 1589248, instruct: 36864, runtime: 2494464)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_overlook_person_256_448_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:26:08 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_overlook_person_256_448_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 256, 448], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 32, 56], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 16, 28], float32, scale: 1, zero point: 0
+output: 788_Conv_f32, [1, 64, 8, 14], float32, scale: 1, zero point: 0
+output: 797_Conv_f32, [1, 1, 32, 56], float32, scale: 1, zero point: 0
+output: 806_Conv_f32, [1, 1, 16, 28], float32, scale: 1, zero point: 0
+output: 815_Conv_f32, [1, 1, 8, 14], float32, scale: 1, zero point: 0
+
+
+device mem size: 4054784 (weight: 1589248, instruct: 36608, runtime: 2428928)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_person_vehicle_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:27:13 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_person_vehicle_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.131423, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.132737, zero point: 0
+output: 706_Conv, [1, 64, 12, 20], int8, scale: 0.109056, zero point: 0
+output: 715_Conv, [1, 7, 48, 80], int8, scale: 0.199447, zero point: 0
+output: 724_Conv, [1, 7, 24, 40], int8, scale: 0.347555, zero point: 0
+output: 733_Conv, [1, 7, 12, 20], int8, scale: 0.403502, zero point: 0
+
+
+device mem size: 8261888 (weight: 3674112, instruct: 45312, runtime: 4542464)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_person_vehicle_mv2_035_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:27:38 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_person_vehicle_mv2_035_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Conv, [1, 64, 48, 80], int8, scale: 0.121458, zero point: 0
+output: 707_Conv, [1, 64, 24, 40], int8, scale: 0.10089, zero point: 0
+output: 720_Conv, [1, 64, 12, 20], int8, scale: 0.085994, zero point: 0
+output: 733_Conv, [1, 7, 48, 80], int8, scale: 0.243229, zero point: 0
+output: 746_Conv, [1, 7, 24, 40], int8, scale: 0.212203, zero point: 0
+output: 759_Conv, [1, 7, 12, 20], int8, scale: 0.204255, zero point: 0
+
+
+device mem size: 5897600 (weight: 1593344, instruct: 44416, runtime: 4259840)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_pet_person_035_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:28:05 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_pet_person_035_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.134777, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.133576, zero point: 0
+output: 884_Conv, [1, 64, 12, 20], int8, scale: 0.106047, zero point: 0
+output: 901_Conv, [1, 3, 48, 80], int8, scale: 0.332503, zero point: 0
+output: 918_Conv, [1, 3, 24, 40], int8, scale: 0.542662, zero point: 0
+output: 935_Conv, [1, 3, 12, 20], int8, scale: 0.582742, zero point: 0
+
+
+device mem size: 5987840 (weight: 1593344, instruct: 44544, runtime: 4349952)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_pet_person_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:28:50 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_pet_person_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 254.998, zero point: 0
+output: box_Conv, [1, 64, 48, 80], int8, scale: 0.0957974, zero point: 0
+output: cls_Conv, [1, 64, 24, 40], int8, scale: 0.1052, zero point: 0
+output: 1162_Conv, [1, 64, 12, 20], int8, scale: 0.0940508, zero point: 0
+output: 1179_Conv, [1, 3, 48, 80], int8, scale: 0.205152, zero point: 0
+output: 1196_Conv, [1, 3, 24, 40], int8, scale: 0.32941, zero point: 0
+output: 1213_Conv, [1, 3, 12, 20], int8, scale: 0.378551, zero point: 0
+
+
+device mem size: 9180800 (weight: 4952064, instruct: 50816, runtime: 4177920)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_det_traffic_light_384_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:29:58 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_det_traffic_light_384_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 384, 640], uint8, scale: 255.001, zero point: 0
+output: box_Conv_f32, [1, 64, 48, 80], float32, scale: 1, zero point: 0
+output: cls_Conv_f32, [1, 64, 24, 40], float32, scale: 1, zero point: 0
+output: 610_Conv_f32, [1, 64, 12, 20], float32, scale: 1, zero point: 0
+output: 619_Conv_f32, [1, 5, 48, 80], float32, scale: 1, zero point: 0
+output: 628_Conv_f32, [1, 5, 24, 40], float32, scale: 1, zero point: 0
+output: 637_Conv_f32, [1, 5, 12, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 8702976 (weight: 3031040, instruct: 44032, runtime: 5627904)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8n_seg_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:40:01 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8n_seg_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: x, [1, 3, 640, 640], uint8, scale: 255.001, zero point: 0
+output: output_Conv_f32, [1, 64, 80, 80], float32, scale: 1, zero point: 0
+output: 799_Conv_f32, [1, 64, 40, 40], float32, scale: 1, zero point: 0
+output: 808_Conv_f32, [1, 64, 20, 20], float32, scale: 1, zero point: 0
+output: 817_Conv_f32, [1, 80, 80, 80], float32, scale: 1, zero point: 0
+output: 826_Conv_f32, [1, 80, 40, 40], float32, scale: 1, zero point: 0
+output: 835_Conv_f32, [1, 80, 20, 20], float32, scale: 1, zero point: 0
+output: 754_Mul_f32, [1, 32, 160, 160], float32, scale: 1, zero point: 0
+output: 763_Conv_f32, [1, 32, 80, 80], float32, scale: 1, zero point: 0
+output: 772_Conv_f32, [1, 32, 40, 40], float32, scale: 1, zero point: 0
+output: 781_Conv_f32, [1, 32, 20, 20], float32, scale: 1, zero point: 0
+
+
+device mem size: 20351232 (weight: 4710400, instruct: 67840, runtime: 15572992)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolov8s_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:37:12 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolov8s_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 254.998, zero point: 0
+output: output0_Conv, [1, 64, 80, 80], int8, scale: 0.12013, zero point: 0
+output: 324_Conv, [1, 64, 40, 40], int8, scale: 0.105404, zero point: 0
+output: 331_Conv, [1, 64, 20, 20], int8, scale: 0.106759, zero point: 0
+output: 338_Conv, [1, 80, 80, 80], int8, scale: 0.188029, zero point: 0
+output: 345_Conv, [1, 80, 40, 40], int8, scale: 0.244313, zero point: 0
+output: 352_Conv, [1, 80, 20, 20], int8, scale: 0.281103, zero point: 0
+
+
+device mem size: 21154432 (weight: 12115968, instruct: 39552, runtime: 8998912)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolox_m_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:38:02 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolox_m_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 255.001, zero point: 0
+output: output_Transpose, [1, 80, 80, 4], int8, scale: 0.0321793, zero point: 0
+output: 1044_Transpose, [1, 80, 80, 1], int8, scale: 0.209929, zero point: 0
+output: 1045_Transpose, [1, 80, 80, 80], int8, scale: 0.102167, zero point: 0
+output: 1069_Transpose, [1, 40, 40, 4], int8, scale: 0.0293425, zero point: 0
+output: 1070_Transpose, [1, 40, 40, 1], int8, scale: 0.182155, zero point: 0
+output: 1071_Transpose, [1, 40, 40, 80], int8, scale: 0.113705, zero point: 0
+output: 1095_Transpose, [1, 20, 20, 4], int8, scale: 0.0248451, zero point: 0
+output: 1096_Transpose, [1, 20, 20, 1], int8, scale: 0.119194, zero point: 0
+output: 1097_Transpose, [1, 20, 20, 80], int8, scale: 0.0734349, zero point: 0
+
+
+device mem size: 39062144 (weight: 27930624, instruct: 72320, runtime: 11059200)
+host mem size: 0 (weight: 0, runtime: 0)
+
+===== MODEL: yolox_s_det_coco80_640_640_INT8_bm1684x.bmodel =====
+bmodel version: B.2.2+v1.21.1.2-gda4d771be-20250916
+chip: BM1684X
+create time: Wed Sep 17 02:38:42 2025
+
+kernel_module name: libbm1684x_kernel_module.so
+kernel_module size: 4518240
+kernel_module md5: 79b8da29db411b89d931088fc068e751
+cpuop_module name: libbm1684x_kernel_module.so
+cpuop_module size: 0
+cpuop_module md5: d41d8cd98f00b204e9800998ecf8427e
+==========================================
+net 0: [yolox_s_det_coco80_640_640_INT8]  static
+------------
+stage 0, core num: 1
+input: images, [1, 3, 640, 640], uint8, scale: 255.001, zero point: 0
+output: output_Transpose, [1, 80, 80, 4], int8, scale: 0.0283409, zero point: 0
+output: 797_Transpose, [1, 80, 80, 1], int8, scale: 0.223349, zero point: 0
+output: 798_Transpose, [1, 80, 80, 80], int8, scale: 0.107313, zero point: 0
+output: 822_Transpose, [1, 40, 40, 4], int8, scale: 0.0299004, zero point: 0
+output: 823_Transpose, [1, 40, 40, 1], int8, scale: 0.200482, zero point: 0
+output: 824_Transpose, [1, 40, 40, 80], int8, scale: 0.121854, zero point: 0
+output: 848_Transpose, [1, 20, 20, 4], int8, scale: 0.0245147, zero point: 0
+output: 849_Transpose, [1, 20, 20, 1], int8, scale: 0.118852, zero point: 0
+output: 850_Transpose, [1, 20, 20, 80], int8, scale: 0.0904461, zero point: 0
+
+
+device mem size: 19184768 (weight: 10084352, instruct: 52352, runtime: 9048064)
+host mem size: 0 (weight: 0, runtime: 0)
+

@@ -1,0 +1,16 @@
+{
+  "channels": [
+    {
+      "channel_id": 0,
+      "url": "/data/tdl_isolated/images",
+      "source_type": "IMG_DIR",
+      "sample_interval": 1,
+      "loop_num": 1,
+      "fps": -1
+    }
+  ],
+  "class_names": "../tdl/data/person_vehicle.names",
+  "download_image": true,
+  "draw_func_name": "draw_yolov8_results",
+  "engine_config_path": "../tdl/config/engine.json"
+}
